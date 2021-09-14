@@ -1,0 +1,16 @@
+{
+  "name": "poc-api",
+  "version": "1.0.0",
+  "description": "Proof of concept for FE graphql integration with apollo",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "Daniel Gomm <dgomm@endpoint.com>",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.0.0",
+    "graphql": "^15.5.1"
+  }
+}

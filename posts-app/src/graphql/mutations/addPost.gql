@@ -1,0 +1,6 @@
+mutation ($content: String!) {
+    addPost(content: $content) {
+        id
+        content
+    }
+}

@@ -1,0 +1,1 @@
+export const currentUserId = 'abc-1';
